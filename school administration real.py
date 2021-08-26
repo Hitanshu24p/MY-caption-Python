@@ -23,7 +23,7 @@ if __name__=='__main__':
         print("Enter split up information is: " + str(student_info_list))
 
         print("\n The entered information is -\n Name: {}\n Age: {}\n Contact_Number: {}\n E-mail_ID: {}"
-              .format(student_info.list{0}, student_info_list{1}, student_info_list{2}, student_indo_list{3}))
+              .format(student_info.list[0], student_info_list[1], student_info_list[2], student_indo_list[3]))
         choice_check = input("Is the entered information correct? (yes/no):")
 
         if choice_check == "yes":
